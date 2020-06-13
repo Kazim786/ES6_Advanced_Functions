@@ -2,6 +2,10 @@
 
 //#1 Create a one line function that adds adds two parameters
 
+//I wrote this
+const oneLineFunc = (x, y) => x + y;
+
+
 //Closure: What does the last line return?
 const addTo = x => y => x + y
 var addToTen = addTo(10)
