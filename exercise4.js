@@ -32,8 +32,9 @@ add5(12) //returns 17
 
 //Composing: What does the last line return?
 const compose = (f, g) => (a) => f(g(a));
+//second parameter function is nested
 const add1 = (num) => num + 1;
 const add5 = (num) => num + 5;
-compose(add1, add5)(10)
+compose(add1, add5)(10) //16
 
 //What are the two elements of a pure function?
